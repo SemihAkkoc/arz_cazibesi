@@ -33,8 +33,6 @@ pressureData = bme280.sample(bus, address, cp)
 print(pressureData)
 print(pressureData.temperature)
 
-global curExNum
-
 curExNum=0 #current experiment number
 
 class gui():
